@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.BiFunction;
 
 /**
  * Created by 张强 on 2016/8/8.
@@ -20,6 +21,9 @@ public class Lambda {
         list.add("3");
         Collections.sort(list, (x, y) -> x.compareTo(y));
         list.forEach(o -> System.out.println(o));
+
+        BiFunction<Integer, Integer, Integer> biFunction = (one, two) -> one + two;
+        System.out.println("BiFunction：" + biFunction.apply(1, 2));
     }
 
     /**
