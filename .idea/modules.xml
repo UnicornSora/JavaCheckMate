@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springmvc/springmvc.iml" filepath="$PROJECT_DIR$/springmvc/springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/unicorn/unicorn.iml" filepath="$PROJECT_DIR$/unicorn/unicorn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wechatappdemo/wechatappdemo.iml" filepath="$PROJECT_DIR$/wechatappdemo/wechatappdemo.iml" />
     </modules>
   </component>
 </project>
