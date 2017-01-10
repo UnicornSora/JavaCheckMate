@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="/hello" method="get">
-    <input type="submit" value="put">
+    <input type="submit" name="put">
 </form>
 </body>
 </html>

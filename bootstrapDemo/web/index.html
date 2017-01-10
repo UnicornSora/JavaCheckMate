@@ -1,15 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="../static/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../static/css/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="../static/css/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <script src="../static/js/jquery/jquery-3.1.1.min.js"></script>
+    <script src="../static/css/bootstrap/js/bootstrap.min.js"></script>
     <title>首页</title>
 </head>
 <body>
 <div class="container">
-    <img src="../static/css/bootstrap/img/glyphicons-halflings.png" class="img-rounded" alt="响应图像">
+    <h1>Hello, world!</h1>
+    <div class="row">
+        <div class="col-md-3"
+             style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <h4>第一列</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+        </div>
+        <div class="col-md-9"
+             style="background-color: #dedef8;box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <h4>第二列 - 分为四个盒子</h4>
+            <div class="row">
+                <div class="col-md-6"
+                     style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        Consectetur art party Tonx culpa semiotics. Pinterest
+                        assumenda minim organic quis.
+                    </p>
+                </div>
+                <div class="col-md-6"
+                     style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"
+                     style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="col-md-6"
+                     style="background-color: #B18904; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Hello World2！</h1>
+    <div class="row">
+        <p>
+            排序前
+        </p>
+        <div class="col-md-4"
+             style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            我在左边
+        </div>
+        <div class="col-md-8"
+             style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            我在右边
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <p>
+            排序后
+        </p>
+        <div class="col-md-4 col-md-push-8"
+             style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            我在左边
+        </div>
+        <div class="col-md-8 col-md-pull-4"
+             style="background-color: #dedef8; box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            我在右边
+        </div>
+    </div>
+
+    <div>
+        <h1>Title1
+            <small>title1</small>
+        </h1>
+        <h2>Title2
+            <small>title2</small>
+        </h2>
+        <h3>Title3
+            <small>title3</small>
+        </h3>
+        <h4>Title4
+            <small>title4</small>
+        </h4>
+        <h5>Title5
+            <small>title5</small>
+        </h5>
+        <h6>Title6
+            <small>title6</small>
+        </h6>
+
+        <h2>引导主体副本</h2>
+        <p class="lead">
+            引导主体副本
+        </p>
+
+        <small>本行内容是在标签内</small>
+        <br>
+        <strong>本行内容是在标签内</strong><br>
+        <em>本行内容是在标签内，并呈现为斜体</em><br>
+        <p class="text-left">向左对齐文本</p>
+        <p class="text-center">居中对齐文本</p>
+        <p class="text-right">向右对齐文本</p>
+        <p class="text-muted">本行内容是减弱的</p>
+        <p class="text-primary">本行内容带有一个 primary class</p>
+        <p class="text-success">本行内容带有一个 success class</p>
+        <p class="text-info">本行内容带有一个 info class</p>
+        <p class="text-warning">本行内容带有一个 warning class</p>
+        <p class="text-danger">本行内容带有一个 danger class</p>
+
+        <abbr title="World Wide Web">World Wide Web</abbr><br>
+        <abbr title="文字的提示">需要提示的文字</abbr>
+
+        <address>
+            <strong>Some Company, Inc.</strong><br>
+            007 street<br>
+            Some City, State XXXXX<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+        </address>
+        <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">mailto@somedomain.com</a>
+        </address>
+
+        <blockquote>
+            <p>
+                这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。这是一个默认的引用实例。
+            </p>
+        </blockquote>
+        <blockquote>
+            这是一个带有源标题的引用。
+            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+        <blockquote class="pull-right">
+            这是一个向右对齐的引用。
+            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+
+        <h4>有序列表</h4>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ol>
+        <h4>无序列表</h4>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <h4>未定义样式列表</h4>
+        <ul class="list-unstyled">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <h4>内联列表</h4>
+        <ul class="list-inline">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <h4>定义列表</h4>
+        <dl>
+            <dt>Description 1</dt>
+            <dd>Item 1</dd>
+            <dt>Description 2</dt>
+            <dd>Item 2</dd>
+        </dl>
+        <h4>水平的定义列表</h4>
+        <dl class="dl-horizontal">
+            <dt>Description 1</dt>
+            <dd>Item 1</dd>
+            <dt>Description 2</dt>
+            <dd>Item 2</dd>
+        </dl>
+    </div>
+    <h2>排版</h2>
+    <p>普通段落</p>
+    <p class="lead">使段落突出显示</p>
+    <p class="small">设定小文本 (设置为父文本的 85% 大小)</p>
+    <p class="text-left">设定文本左对齐</p>
+    <p class="text-center">设定文本居中对齐</p>
+    <p class="text-right">设定文本右对齐</p>
+    <p class="text-justify">设定文本对齐,段落中超出屏幕部分文字自动换行，设定文本对齐,段落中超出屏幕部分文字自动换行</p>
+    <p class="text-nowrap">段落中超出屏幕部分不换行，段落中超出屏幕部分不换行，段落中超出屏幕部分不换行</p>
+    <p class="text-lowercase">设定文本小写DDDDddddd</p>
+    <p class="text-uppercase">设定文本大写DDDDddddd</p>
+    <p class="text-capitalize">设定单词首字母大写ddddd</p>
+    <abbr class="initialism">显示在abbr元素中的文本以小号字体展示，且可以将小写字母转换为大写字母</abbr>
+    <p class="blockquote-reverse">设定引用右对齐</p>
+    <h4>将所有列表项放置同一行</h4>
+    <ul class="list-inline">
+        <li>1111</li>
+        <li>2222</li>
+        <li>3333</li>
+    </ul>
+    <p>使用 dl 元素设置描述列表：</p>
+    <dl class="dl-horizontal">
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+    <p>设置 pre 元素可滚动：</p>
+    <pre class="pre-scrollable">
+        内容可滚动
+        A
+        Alpha
+        B
+        Bravo
+        C
+        Charlie
+        D
+        Delta
+        E
+        Echo
+        F
+        Foxtrot
+        G
+        Golf
+        H
+        Hotel
+        I
+        India
+        J
+        Juliet
+        K
+        Kilo
+        L
+        Lima
+        M
+        Mike
+        N
+        November
+        O
+        Oscar
+        P
+        Papa
+        Q
+        Quebec
+        R
+        Romeo
+        S
+        Sierra
+        T
+        Tango
+        U
+        Uniform
+        V
+        Victor
+        W
+        Whisky
+        X
+        X-ray
+        Y
+        Yankee
+        Z
+        Zulu
+	</pre>
+
+    <p><code>&lt;header&gt;</code> 作为内联元素被包围。</p>
+    <p>如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签：</p>
+    <pre>
+    &lt;article&gt;
+        &lt;h1&gt;Article Heading&lt;/h1&gt;
+    &lt;/article&gt;
+    </pre>
+
+    <p>使用 var 元素表示变量：</p>
+    <p>x = ab + y</p>
+    <p><var>x = ab + y</var></p>
+    <p><var>x</var> = <var>a</var><var>b</var> + <var>y</var></p>
 </div>
 </body>
 </html>

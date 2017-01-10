@@ -536,9 +536,9 @@ public class ReflectLogic {
     }
 
     public static void main(String[] args) {
-        String className = "reflect.bean.ReflectBean";
-        String classNameInterface = "reflect.bean.ReflectInterfaceImpl";
-        String classNameSon = "reflect.bean.ReflectSonBean";
+        String className = "reflect.base.bean.ReflectBean";
+        String classNameInterface = "reflect.base.bean.ReflectInterfaceImpl";
+        String classNameSon = "reflect.base.bean.ReflectSonBean";
         ReflectLogic reflectLogic = new ReflectLogic();
 //        reflectLogic.function01();
 //        reflectLogic.funciton02(className);
@@ -559,7 +559,7 @@ public class ReflectLogic {
 //        reflectLogic.function16(className);
 //        reflectLogic.function17();
 //        reflectLogic.function18("Orange");
-//        reflectLogic.function19("reflect.bean.Apple");
+//        reflectLogic.function19("reflect.base.bean.Apple");
         reflectLogic.function20("apple");
     }
 }

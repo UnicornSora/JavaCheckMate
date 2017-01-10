@@ -13,8 +13,8 @@ public class PropertieInitial {
         if (f.exists()) {
             pro.load(new FileInputStream(f));
         } else {
-            pro.setProperty("apple", "reflect.bean.Apple");
-            pro.setProperty("orange", "reflect.bean.Orange");
+            pro.setProperty("apple", "reflect.base.bean.Apple");
+            pro.setProperty("orange", "reflect.base.bean.Orange");
             pro.store(new FileOutputStream(f), "FRUIT CLASS");
         }
         return pro;
